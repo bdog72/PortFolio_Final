@@ -11,3 +11,13 @@ body {
   margin: 30px;
   font: $base-text-size / 1 $base-font-family;
 }
+
+p {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
