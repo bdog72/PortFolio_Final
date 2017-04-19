@@ -25,7 +25,18 @@ export default class Grid extends Component {
         <Image src={this.state.imageURL} responsive circle />
       </header>
       <aside className='sidebar-right'>
-        <h1>R Sidebar</h1>
+        <ul className='skills1'>
+          <li><Image src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' responsive /></li>
+          <li><Image src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' responsive /></li>
+        </ul>
+        <ul className='skills1'>
+          <li><Image src='https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/boostrap-128.png' responsive /></li>
+          <li><Image src='https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png' alt='' responsive /></li>
+        </ul>
+        <ul className='skills1'>
+          <li><Image src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' responsive /></li>
+          <li><Image src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' responsive /></li>
+        </ul>
       </aside>
       <article>
         <a href='https://github.com/bdog72'>
@@ -33,7 +44,18 @@ export default class Grid extends Component {
         </a>
       </article>
       <aside className='sidebar-left'>
-        <h1>L Sidebar</h1>
+        <ul className='skills1'>
+          <li><Image src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' responsive /></li>
+          <li><Image src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' responsive /></li>
+        </ul>
+        <ul className='skills1'>
+          <li><Image src='https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/boostrap-128.png' responsive /></li>
+          <li><Image src='https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png' alt='' responsive /></li>
+        </ul>
+        <ul className='skills1'>
+          <li><Image src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' responsive /></li>
+          <li><Image src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' responsive /></li>
+        </ul>
       </aside>
       <footer>
         <p>813-505-4733</p>
