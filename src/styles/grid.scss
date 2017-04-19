@@ -2,13 +2,37 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 150px auto 150px;
-  grid-template-rows: repeat(3, 200px);
-  grid-gap: 2em;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 1em;
 }
 
 header {
   grid-row: 1;
   grid-column: 1/4;
-  border: 1px sold black;
+  border: 1px solid black;
+}
+
+.sidebar-left {
+  grid-row: 2;
+  grid-column: 1/2;
+  border: 1px solid black;
+}
+
+article {
+  grid-row: 2;
+  grid-column: 2/3;
+  border: 1px solid black;
+}
+
+.sidebar-right {
+  grid-row: 2;
+  grid-column: 3/4;
+  border: 1px solid black;
+}
+
+footer {
+  grid-row: 3;
+  grid-column: 1/4;
+  border: 1px solid black;
 }
