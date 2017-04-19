@@ -1,40 +1,60 @@
 @import 'utility';
 
+body {
+  background-color: #333e40;
+
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(3, auto);
-  grid-gap: 2px;
+  grid-gap: 10px;
 }
 
 header {
   grid-row: 1;
   grid-column: 1/4;
-  border: 1px solid black;
+  border: 5px solid white;
+  background-color: #97babf;
 }
 
 .sidebar-left {
   grid-row: 2;
   grid-column: 1/2;
-  border: 1px solid black;
+  border: 1px solid white;
+  background-color: #647c7f;
+  color: white;
+
+  p {
+    padding: 5px;
+  }
 }
 
 article {
   grid-row: 2;
   grid-column: 2/3;
-  border: 1px solid black;
+  border: 5px solid white;
+  color: white;
 }
 
 .sidebar-right {
   grid-row: 2;
   grid-column: 3/4;
-  border: 1px solid black;
+  border: 1px solid white;
+  background-color: #647c7f;
+  color: white;
+
+  p {
+    padding: 5px;
+  }
 }
 
 footer {
   grid-row: 3;
   grid-column: 1/4;
-  border: 1px solid black;
+  border: 5px solid white;
+  background-color: #b5dFe5;
 }
 
 .skills1 {
@@ -43,3 +63,9 @@ footer {
   list-style-type: none;
   padding: 15px;
 }
+
+// #97babf
+// #647c7f
+// #647c7f
+// #333e40
+// #b5dFe5

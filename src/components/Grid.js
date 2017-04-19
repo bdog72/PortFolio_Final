@@ -25,6 +25,7 @@ export default class Grid extends Component {
         <Image src={this.state.imageURL} responsive circle />
       </header>
       <aside className='sidebar-right'>
+        <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
         <ul className='skills1'>
           <li><Image src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' responsive /></li>
           <li><Image src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' responsive /></li>
@@ -39,11 +40,16 @@ export default class Grid extends Component {
         </ul>
       </aside>
       <article>
+        <p>Follow Me On Twitter</p>
+        <a href='https://twitter.com/Bdoggy72'>
+          <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
+        </a>
         <a href='https://github.com/bdog72'>
           <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
         </a>
       </article>
       <aside className='sidebar-left'>
+        <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
         <ul className='skills1'>
           <li><Image src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' responsive /></li>
           <li><Image src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' responsive /></li>
