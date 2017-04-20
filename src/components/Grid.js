@@ -26,6 +26,8 @@ export default class Grid extends Component {
         <div className='proPic'>
           <Image src={this.state.imageURL} responsive circle />
         </div>
+        <p>{this.state.bio}</p>
+        <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
       </header>
       <aside className='sidebar-right'>
         <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
