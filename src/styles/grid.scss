@@ -2,7 +2,6 @@
 
 body {
   background-color: #333e40;
-
 }
 
 .grid {
@@ -27,7 +26,7 @@ header {
   color: white;
 
   p {
-    padding: 5px;
+    padding: 15px;
   }
 }
 
@@ -46,7 +45,7 @@ article {
   color: white;
 
   p {
-    padding: 5px;
+    padding: 15px;
   }
 }
 
@@ -54,7 +53,7 @@ footer {
   grid-row: 3;
   grid-column: 1/4;
   border: 5px solid white;
-  background-color: #b5dFe5;
+  background-color: #b5dfe5;
 }
 
 .skills1 {
