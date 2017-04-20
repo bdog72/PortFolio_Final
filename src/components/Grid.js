@@ -21,8 +21,11 @@ export default class Grid extends Component {
 
   render () {
     return <div className='grid'>
-      <header><h1>{this.state.name}</h1>
-        <Image src={this.state.imageURL} responsive circle />
+      <header>
+        <h1>{this.state.name}</h1>
+        <div className='proPic'>
+          <Image src={this.state.imageURL} responsive circle />
+        </div>
       </header>
       <aside className='sidebar-right'>
         <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
@@ -41,12 +44,16 @@ export default class Grid extends Component {
       </aside>
       <article>
         <p>Follow Me On Twitter</p>
-        <a href='https://twitter.com/Bdoggy72'>
-          <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
-        </a>
-        <a href='https://github.com/bdog72'>
-          <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
-        </a>
+        <div className='tweet'>
+          <a href='https://twitter.com/Bdoggy72'>
+            <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
+          </a>
+        </div>
+        <div className='tweet'>
+          <a href='https://github.com/bdog72'>
+            <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
+          </a>
+        </div>
       </article>
       <aside className='sidebar-left'>
         <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>

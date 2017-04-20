@@ -16,6 +16,19 @@ header {
   grid-column: 1/4;
   border: 5px solid white;
   background-color: #97babf;
+
+  h1 {
+    text-align: center;
+    font-size: 90px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .proPic {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
 }
 
 .sidebar-left {
@@ -35,6 +48,17 @@ article {
   grid-column: 2/3;
   border: 5px solid white;
   color: white;
+
+  p {
+    font-size: 50px;
+    padding: 20px;
+  }
+
+  .tweet {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
 }
 
 .sidebar-right {
