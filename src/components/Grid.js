@@ -49,6 +49,7 @@ export default class Grid extends Component {
             <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
           </a>
         </div>
+        <p>My Current GitHub Chart</p>
         <div className='tweet'>
           <a href='https://github.com/bdog72'>
             <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
