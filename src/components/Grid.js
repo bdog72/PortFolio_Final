@@ -35,7 +35,7 @@ export default class Grid extends Component {
         <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
       </header>
       <aside className='sidebar-right'>
-        <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
+        {/* <p>I Also Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p> */}
         <h1 className='rR2'>React Router</h1>
         <ReactRouter />
         {/* <ul className='skills1'>
