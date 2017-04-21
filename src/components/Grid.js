@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ReactRouter from './ReactRouter'
 import { Image } from 'react-bootstrap'
 export default class Grid extends Component {
   constructor () {
@@ -22,6 +23,7 @@ export default class Grid extends Component {
   render () {
     return <div className='grid'>
       <header>
+        <ReactRouter />
         <h1>{this.state.name}</h1>
         <div className='proPic'>
           <Image src={this.state.imageURL} responsive circle />
