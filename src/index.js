@@ -7,7 +7,7 @@ import App from './components/App'
 // import Grid from './components/Grid'
 
 import './styles/screen.scss'
-import './styles/grid.scss'
+// import './styles/grid.scss'
 const root = document.getElementById('root')
 
 const render = app => {

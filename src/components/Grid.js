@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import ReactRouter from './ReactRouter'
 import { Image } from 'react-bootstrap'
+import '../../src/styles/grid.scss'
+
 export default class Grid extends Component {
   constructor () {
     super()
@@ -23,17 +25,20 @@ export default class Grid extends Component {
   render () {
     return <div className='grid'>
       <header>
-        <ReactRouter />
-        <h1>{this.state.name}</h1>
-        <div className='proPic'>
-          <Image src={this.state.imageURL} responsive circle />
+        <div className='head1'>
+          <h1>{this.state.name}</h1>
+          <div className='proPic'>
+            <Image src={this.state.imageURL} responsive circle />
+          </div>
         </div>
         <p>{this.state.bio}</p>
         <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
       </header>
       <aside className='sidebar-right'>
         <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
-        <ul className='skills1'>
+        <h1>React Router</h1>
+        <ReactRouter />
+        {/* <ul className='skills1'>
           <li><Image src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' responsive /></li>
           <li><Image src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' responsive /></li>
         </ul>
@@ -44,7 +49,7 @@ export default class Grid extends Component {
         <ul className='skills1'>
           <li><Image src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' responsive /></li>
           <li><Image src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' responsive /></li>
-        </ul>
+        </ul> */}
       </aside>
       <article>
         <p>Follow Me On Twitter</p>
