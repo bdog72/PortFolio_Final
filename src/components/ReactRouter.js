@@ -5,25 +5,25 @@ export default class ReactRouter extends Component {
   render () {
     const Example1 = () => (
       <div>
-        <h2>&spades;</h2>
+        <h2 className='entities'>&spades;</h2>
       </div>
     )
 
     const Example2 = () => (
       <div>
-        <h2>&clubs;</h2>
+        <h2 className='entities'>&clubs;</h2>
       </div>
     )
 
     const Example3 = () => (
       <div>
-        <h2>&hearts;</h2>
+        <h2 className='entities'>&hearts;</h2>
       </div>
     )
 
     const Example4 = () => (
       <div>
-        <h2>&diams;</h2>
+        <h2 className='entities'>&diams;</h2>
       </div>
     )
     const BasicExample = () => (
