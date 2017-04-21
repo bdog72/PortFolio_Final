@@ -9,13 +9,40 @@ body {
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(3, auto);
   grid-gap: 10px;
+  // grid-template-areas:
+  //   'header' 'header' 'header'
+  //   'sidebar-left' 'article' 'sidebar-right'
+  //   'footer' 'footer' 'footer';
 }
+
+// @media only screen and (min-width: 500px) {
+//   .grid {
+//     grid-template-columns: 20% auto;
+//     grid-template-areas:
+//       'header' 'header'
+//       'sidebar-left' 'article'
+//       'sidebar-right' 'sidebar-right'
+//       'footer' 'footer';
+//   }
+// }
+//
+// @media only screen and (min-width: 600px) {
+//   .grid {
+//     grid-template-columns: 1740px auto 1740px;
+//     grid-template-areas:
+//       'header' 'header' 'header'
+//       'sidebar-left' 'article' 'sidebar-right'
+//       'footer' 'footer' 'footer';
+//     max-width: 600px;
+//   }
+// }
 
 header {
   grid-row: 1;
   grid-column: 1/4;
   border: 5px solid white;
   background-color: #97babf;
+  // grid-area: header;
 
   h1 {
     text-align: center;
@@ -37,12 +64,19 @@ header {
   }
 }
 
+@media (max-width: 530px) {
+  header .head1 h1 {
+    font-size: 40px;
+  }
+}
+
 .sidebar-left {
   grid-row: 2;
   grid-column: 1/2;
   border: 1px solid white;
   background-color: #647c7f;
   color: white;
+  // grid-area: sidebar-left;
 
   p {
     padding: 15px;
@@ -55,6 +89,7 @@ article {
   grid-column: 2/3;
   border: 5px solid white;
   color: white;
+  // grid-area: article;
 
   p {
     font-size: 50px;
@@ -74,6 +109,7 @@ article {
   border: 1px solid white;
   background-color: #647c7f;
   color: white;
+  // grid-area: sidebar-right;
 
   p {
     padding: 15px;
@@ -90,6 +126,7 @@ footer {
   grid-column: 1/4;
   border: 5px solid white;
   background-color: #b5dfe5;
+  // grid-area: footer;
 
   p {
     font-size: 30px;

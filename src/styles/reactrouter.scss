@@ -9,8 +9,14 @@ ul li {
 }
 
 .entities {
-  font-size: 100px;
+  font-size: 200px;
   text-align: center;
+}
+
+@media (max-width: 650px) {
+  .entities {
+    font-size: 80px;
+  }
 }
 
 .rR2 {
