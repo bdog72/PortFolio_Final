@@ -36,7 +36,7 @@ export default class Grid extends Component {
       </header>
       <aside className='sidebar-right'>
         <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
-        <h1>React Router</h1>
+        <h1 className='rR2'>React Router</h1>
         <ReactRouter />
         {/* <ul className='skills1'>
           <li><Image src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' responsive /></li>
